@@ -1531,3 +1531,9 @@ Entries:
       message: Gatfruit to infinite FUCs to infinite money exploit
   id: 163
   time: '2026-03-03T01:45:58.0000000+00:00'
+- author: warcrazed11
+  changes:
+    - type: Add
+      message: Added the radio system from goob.
+  id: 164
+  time: '2026-03-03T01:50:17.0000000+00:00'

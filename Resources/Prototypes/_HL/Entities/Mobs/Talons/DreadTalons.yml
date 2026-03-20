@@ -111,14 +111,18 @@
   - type: Body
     prototype: Friendshaped
   - type: ThermalVision # Starlight
-  - type: 
+  - type: Access
   - type: Puller
     needsHands: false
   - type: MeleeWeapon
-      damage:
-        types:
-          Slash: 33
-          Radiation: 10
+    damage:
+      types:
+        Slash: 33
+        Radiation: 10
+  - type: CumProducer
+    maxVol: 250
+    reVol: 50
+    reHunger: 1
   - type: JumpAbility
     action: ActionVulpkaninGravityJump
     canCollide: true

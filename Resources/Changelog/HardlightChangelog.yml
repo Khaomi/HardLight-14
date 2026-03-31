@@ -2182,3 +2182,9 @@ Entries:
       message: New barsign
   id: 234
   time: '2026-03-31T19:30:33.0000000+00:00'
+- author: rtasva
+  changes:
+    - type: Add
+      message: rules 2.5 and 11.5
+  id: 235
+  time: '2026-03-31T22:24:30.0000000+00:00'

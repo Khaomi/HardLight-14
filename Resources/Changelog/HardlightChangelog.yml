@@ -2310,3 +2310,9 @@ Entries:
       message: Shadekin now have correct amount of starting genes
   id: 251
   time: '2026-04-04T19:52:28.0000000+00:00'
+- author: Illumos
+  changes:
+    - type: Fix
+      message: Aphrodesiac bite now has a cooldown.
+  id: 252
+  time: '2026-04-04T19:55:06.0000000+00:00'

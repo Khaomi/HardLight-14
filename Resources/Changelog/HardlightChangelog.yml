@@ -2424,3 +2424,9 @@ Entries:
       message: Added new craftable bone items and some interesting drops from dinosaurs
   id: 266
   time: '2026-04-09T20:47:48.0000000+00:00'
+- author: Illumos
+  changes:
+    - type: Tweak
+      message: Wagging has been improved!
+  id: 267
+  time: '2026-04-09T21:19:47.0000000+00:00'

@@ -2760,3 +2760,11 @@ Entries:
       message: MapChecker works again after someone broke it.
   id: 293
   time: '2026-04-16T20:46:41.0000000+00:00'
+- author: R3v3l4t1on
+  changes:
+    - type: Fix
+      message: >-
+        Fixed all xenoborgs cosplaying as engineers. Now you can actually tell
+        if you're fighting an engi or a fridge.
+  id: 294
+  time: '2026-04-16T20:47:04.0000000+00:00'

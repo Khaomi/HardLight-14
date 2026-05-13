@@ -3894,3 +3894,9 @@ Entries:
       message: Fixed context menu incorrect display
   id: 417
   time: '2026-05-13T23:13:35.0000000+00:00'
+- author: Sully669
+  changes:
+    - type: Fix
+      message: Fixed plastitanium structure cost to 250
+  id: 418
+  time: '2026-05-13T23:14:36.0000000+00:00'

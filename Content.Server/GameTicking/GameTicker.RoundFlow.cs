@@ -13,6 +13,7 @@ using Content.Server.Shuttles.Events;
 using Content.Server.Shuttles.Systems;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems; // Add this if missing
+using Content.Shared._HL.Rescue.Rescue; // Hardlight
 using Content.Shared._NF.Shipyard.Components;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
@@ -887,6 +888,14 @@ namespace Content.Server.GameTicking
 
             //            _banManager.Restart();
             _gameMapManager.ClearSelectedMap();
+
+            // Hardlight start - Delete all rescue beacons from the previous round before the new map loads
+            var rescueBeaconQuery = EntityQueryEnumerator<RescueBeaconComponent>();
+            while (rescueBeaconQuery.MoveNext(out var beaconUid, out var beacon))
+            {
+                QueueDel(beaconUid);
+            }
+            // Hardlight end
 
             // Clear up any game rules.
 

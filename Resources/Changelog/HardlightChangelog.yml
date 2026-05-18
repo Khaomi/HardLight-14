@@ -4032,3 +4032,9 @@ Entries:
         regen traits, not just platelets
   id: 433
   time: '2026-05-18T18:13:56.0000000+00:00'
+- author: biteymcstabface
+  changes:
+    - type: Tweak
+      message: Reduced range of phase shift light flickering by 40%
+  id: 434
+  time: '2026-05-18T18:23:02.0000000+00:00'

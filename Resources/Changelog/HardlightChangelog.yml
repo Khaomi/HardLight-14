@@ -4064,3 +4064,11 @@ Entries:
         ColComm.
   id: 437
   time: '2026-05-18T18:31:59.0000000+00:00'
+- author: re-silvered
+  changes:
+    - type: Fix
+      message: Fixed geneticist station pay 0 -> 24k
+    - type: Tweak
+      message: Lowered prisoner station pay 20k -> 5k
+  id: 438
+  time: '2026-05-18T18:35:49.0000000+00:00'

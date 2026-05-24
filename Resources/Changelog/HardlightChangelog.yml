@@ -4212,3 +4212,15 @@ Entries:
       message: Katana sheaths to MercVend.
   id: 455
   time: '2026-05-21T19:52:25.0000000+00:00'
+- author: SquishyEmmaaaa
+  changes:
+    - type: Add
+      message: New Colonial Officer's Sabre
+    - type: Add
+      message: New Ornate Sheath, with sprites!
+    - type: Tweak
+      message: Changed some CentCom contra tags to ColonialCommand ones.
+    - type: Tweak
+      message: Moves the medipen tag to the correct file location
+  id: 456
+  time: '2026-05-24T00:02:17.0000000+00:00'
